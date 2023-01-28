@@ -487,6 +487,7 @@ ul {
 .customers {
   width: 1170px;
   height: 184px;
+  margin: 0% 15%;
 }
 
 .customer-section {
@@ -538,7 +539,6 @@ ul {
 }
 
 .find-us-p {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: var(--fontWeight);
   font-size: 14px;
@@ -576,17 +576,31 @@ ul {
 .footer-direction {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .footer-social-icons {
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
+  margin-left: 10%;
 }
 
 .footer-address {
-  margin-left: 200px;
+  margin-left: 10%;
+}
+
+.subscribe-title {
+  color: var(--white);
+  font-style: var(--fontWeight);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.footer-buttom {
+  padding: 10px 43px;
+  margin-left: 12px;
 }
 
 .modal {
