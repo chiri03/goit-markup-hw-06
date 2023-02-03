@@ -40,6 +40,49 @@
             />
           </svg>
         </button>
+        <div class="inner-form">
+          <h3 clas="inner-form-title">
+            Leave your information and we'll call you back
+          </h3>
+          <form class="info-box" autocomplete="off">
+            <label class="row">
+              Name
+              <input type="text" name="name" />
+              <svg class="info-box-icon" width="12" height="12">
+                <use href="./images/social-icons/input.svg#icon-Vector-2"></use>
+              </svg>
+            </label>
+            <label class="row">
+              Telephone
+              <input type="tel" name="phone" />
+              <svg class="info-box-icon" width="13" height="13">
+                <use href="./images/social-icons/input.svg#icon-Vector-1"></use>
+              </svg>
+            </label>
+            <label class="row"
+              >E-mail
+              <input type="email" name="email" />
+              <svg class="info-box-icon" width="15" height="12">
+                <use href="./images/social-icons/input.svg#icon-Vector"></use>
+              </svg>
+            </label>
+            <label class="row"
+              >Comments
+              <textarea name="comments" placeholder="Enter the text"></textarea>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="checkbox" />
+              <span class="checkmark"></span>
+              <p class="checkbox-title">
+                I agree with the letter and accept the
+                <a class="term" href="#" target="_blank">
+                  Terms and Conditions</a
+                >
+              </p>
+            </label>
+            <button class="button" type="submit">Send</button>
+          </form>
+        </div>
       </div>
     </div>
     <div class="container">
@@ -104,70 +147,65 @@
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
           </h1>
-          <button class="button" type="button" data-modal-open>
+          <button class="button request-button" type="button" data-modal-open>
             Request our service
           </button>
         </div>
 
         <!-- section skills -->
-        <section class="section side-borders">
-          <table class="table">
-            <tr>
-              <th class="skills-section-icons">
+        <section class="section skills-section">
+          <div class="container">
+            <ul class="skills-list">
+              <li class="skills-section-item">
                 <svg class="skills-icons">
                   <use
                     href="./images/social-icons/symbol-defs.svg#icon-antenna-1"
                   ></use>
                 </svg>
-              </th>
-              <th class="skills-section-icons">
+                <h3 class="skills-title">Atenție la detalii</h3>
+                <p class="skills-subtitle">
+                  Considerații ideologice precum și începutul unor activități
+                  zilnice privind formarea unei poziții.
+                </p>
+              </li>
+              <li class="skills-section-item">
                 <svg class="skills-icons">
                   <use
                     href="./images/social-icons/symbol-defs.svg#icon-clock-1"
                   ></use>
                 </svg>
-              </th>
-              <th class="skills-section-icons">
+                <h3 class="skills-title">Punctualitate</h3>
+                <p class="skills-subtitle">
+                  Sarcina organizației, în special ce implică cadrul și locul de
+                  formare a personalului
+                </p>
+              </li>
+              <li class="skills-section-item">
                 <svg class="skills-icons">
                   <use
                     href="./images/social-icons/symbol-defs.svg#icon-diagram-1"
                   ></use>
                 </svg>
-              </th>
-              <th class="skills-section-icons">
+                <h3 class="skills-title">Planificare</h3>
+                <p class="skills-subtitle">
+                  În mod similar, consultarea cu un activ larg este în mare
+                  parte condiționată.
+                </p>
+              </li>
+              <li class="skills-section-item">
                 <svg class="skills-icons">
                   <use
                     href="./images/social-icons/symbol-defs.svg#icon-astronaut-1"
                   ></use>
                 </svg>
-              </th>
-            </tr>
-            <tr>
-              <th class="skills">Atenție la detalii</th>
-              <th class="skills">Punctualitate</th>
-              <th class="skills">Planificare</th>
-              <th class="skills">Tehnologii moderne</th>
-            </tr>
-
-            <tr>
-              <th class="skills-description">
-                Considerații ideologice precum și începutul unor activități
-                zilnice privind formarea unei poziții.
-              </th>
-              <th class="skills-description">
-                Sarcina organizației, în special ce implică cadrul și locul de
-                formare a personalului.
-              </th>
-              <th class="skills-description">
-                În mod similar, consultarea cu un activ larg este în mare parte
-                condiționată.
-              </th>
-              <th class="skills-description">
-                Importanța acestor probleme este atât de evidentă, la fel ca și
-                implementarea obiectivelor planificate.
-              </th>
-            </tr>
-          </table>
+                <h3 class="skills-title">Tehnologii moderne</h3>
+                <p class="skills-subtitle">
+                  Importanța acestor probleme este atât de evidentă, la fel ca
+                  și implementarea obiectivelor planificate.
+                </p>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <!-- section What we to do -->
@@ -209,209 +247,210 @@
 
         <!-- our team section -->
         <section class="section team-section">
-          <h2 class="our-team">Our Team</h2>
+          <div class="container">
+            <h2 class="our-team">Our Team</h2>
+            <ul class="our-team-section">
+              <li class="team">
+                <img
+                  class="photo"
+                  src="./images/photoCristopher.jpg"
+                  alt="Cristopher Photo"
+                />
+                <div class="img-container">
+                  <h3 class="photo-container-name">Christopher Walker</h3>
+                  <p class="photo-container-post">Product Designer</p>
+                </div>
+                <ul class="social-icons-list">
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-          <ul class="our-team-section">
-            <li class="team">
-              <img
-                class="photo"
-                src="./images/photoCristopher.jpg"
-                alt="Cristopher Photo"
-              />
-              <div class="img-container">
-                <h3 class="photo-container-name">Christopher Walker</h3>
-                <p class="photo-container-post">Product Designer</p>
-              </div>
-              <ul class="social-icons-list">
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
+              <li class="team">
+                <img
+                  class="photo"
+                  src="./images/photoKylie.jpg"
+                  alt="Kylie Photo"
+                />
+                <div class="img-container">
+                  <h3 class="photo-container-name">Kylie Evans</h3>
+                  <p class="photo-container-post">Frontend Developer</p>
+                </div>
+                <ul class="social-icons-list">
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="team">
-              <img
-                class="photo"
-                src="./images/photoKylie.jpg"
-                alt="Kylie Photo"
-              />
-              <div class="img-container">
-                <h3 class="photo-container-name">Kylie Evans</h3>
-                <p class="photo-container-post">Frontend Developer</p>
-              </div>
-              <ul class="social-icons-list">
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
+              <li class="team">
+                <img
+                  class="photo"
+                  src="./images/photoRyan.jpg"
+                  alt="Ryan Photo"
+                />
+                <div class="img-container">
+                  <h3 class="photo-container-name">Ryan Harris</h3>
+                  <p class="photo-container-post">Marketing</p>
+                </div>
+                <ul class="social-icons-list">
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="team">
-              <img
-                class="photo"
-                src="./images/photoRyan.jpg"
-                alt="Ryan Photo"
-              />
-              <div class="img-container">
-                <h3 class="photo-container-name">Ryan Harris</h3>
-                <p class="photo-container-post">Marketing</p>
-              </div>
-              <ul class="social-icons-list">
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="team">
-              <img
-                class="photo"
-                src="./images/photoTyler.jpg"
-                alt="Tyler Photo"
-              />
-              <div class="img-container">
-                <h3 class="photo-container-name">Tyler Moore</h3>
-                <p class="photo-container-post">UI Designer</p>
-              </div>
-              <ul class="social-icons-list">
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="social-link team-link">
-                    <svg class="social-icons">
-                      <use
-                        href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+              <li class="team">
+                <img
+                  class="photo"
+                  src="./images/photoTyler.jpg"
+                  alt="Tyler Photo"
+                />
+                <div class="img-container">
+                  <h3 class="photo-container-name">Tyler Moore</h3>
+                  <p class="photo-container-post">UI Designer</p>
+                </div>
+                <ul class="social-icons-list">
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="social-link team-link">
+                      <svg class="social-icons">
+                        <use
+                          href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <!-- Regular Customers section-->
@@ -539,16 +578,15 @@
           </div>
 
           <!-- plase to subscribe sections -->
-          <div class="footer-social-icons">
-            <form>
-              <h2 class="subscribe-title">Subscribe to the newsletter</h2>
-              <input type="email" name="email" placeholder="E-mail" />
-              <button type="submit" class="button footer-buttom">
+          <div class="subscribe-container">
+            <h2 class="subscribe-title">Subscribe to the newsletter</h2>
+            <form class="subscribe-form">
+              <input type="email" name="email" placeholder="E-mail " />
+              <button type="submit" class="subscribe">
                 Subscribe
+
                 <svg class="social-icons">
-                  <use
-                    href="./images/social-icons/symbol-defs.svg#icon-linkedin-1"
-                  ></use>
+                  <use href="./images/social-icons/input.svg#icon-send"></use>
                 </svg>
               </button>
             </form>
